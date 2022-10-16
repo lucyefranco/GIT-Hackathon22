@@ -32,8 +32,8 @@ function SignIn() {
             <Button variant="contained">Continue with Google</Button>
         </Stack>
         <Divider />
-        <Button onClick={navigate("/")}> Use as a guest </Button>
-        <Box display="flex">
+        <Button onClick={()=> {navigate("/")}}> Use as a guest </Button>
+        <Box display="flex" sx={{alignItems:'center', justifyContent:'center'}}>
             <Typography> Not on our app?</Typography>
             <Button>Sign up here</Button>
         </Box>
