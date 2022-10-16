@@ -8,6 +8,7 @@ import { ThemeProvider, createTheme } from '@mui/material/styles';
 import Home from './Pages/Home';
 import SignIn from './Pages/SignIn'
 import HelpPage from "./Pages/HelpPage";
+import NameYourPlant from './Pages/NameYourPlant';
 
 const theme = createTheme({
   typography: {
@@ -26,6 +27,7 @@ function App() {
         <Route exact path="/" element={<Home />} />
         <Route exact path="signin" element={<SignIn />} />
         <Route exact path="helppage" element={<HelpPage />} />
+        <Route exact path="nameyourplant" element={<NameYourPlant />} />
       </Routes>
     </Router>
     </ThemeProvider>
