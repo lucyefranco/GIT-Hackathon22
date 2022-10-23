@@ -11,6 +11,7 @@ import {
 } from "@mui/material";
 import { useState } from "react";
 import seedPhoto from "../assets/Seed.png";
+import Task from "../Components/Task"
 
 function NameYourPlant() {
   const [plantName, setPlantName] = useState("");
@@ -63,6 +64,7 @@ function NameYourPlant() {
       </Box>
       <Box>{/* tasks */}
         {/* get tasks and map into component */}
+        <Task task="Drink water"/>
       </Box>
     </Container>
   );
