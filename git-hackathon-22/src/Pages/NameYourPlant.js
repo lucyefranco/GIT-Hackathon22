@@ -62,7 +62,8 @@ function NameYourPlant() {
         </Box>
         <img src={seedPhoto} alt="" style={photoStyling} />
       </Box>
-      <Box>{/* tasks */}
+      <Box>
+        {/* tasks */}
         {/* get tasks and map into component */}
         <Task task="Drink water"/>
       </Box>
